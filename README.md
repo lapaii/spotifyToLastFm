@@ -16,6 +16,7 @@ PASSWORD=[LAST FM PASSWORD (must be plaintext)]
 5. run ```mergeFiles.py```
 6. ensure that it creates a ```data.json``` file in the main folder
 7. run ```splitFile.py``` to split it into 2800 song 'blocks' (last fm scrobble limit per day)
-8. run ```scrobble.py``` (you will have to run it multiple times as it only scrobbles one 'block' at a time)
+8. make sure you have pylast installed, run ```pip install pylast``` if you dont
+9. run ```scrobble.py``` (you will have to run it multiple times as it only scrobbles one 'block' at a time)
 
 please open any issues if theres problems with it !!! i will try my best to fix stuff (within reason)
