@@ -1,0 +1,5 @@
+blocks/*.json
+data/*.json
+*.json
+*.pdf
+.env
